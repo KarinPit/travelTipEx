@@ -29,6 +29,11 @@ p {
     justify-content: space-between;
 }
 
+.delete-loc {
+    color: white;
+    background: rgb(197, 0, 0);
+}
+
 form {
     display: inline-block;
 }
@@ -49,4 +54,46 @@ button {
     border: none;
     border-radius: 0.2em;
     cursor: pointer;
+}
+
+.locs {
+    display: inline-block;
+    height: 300px;
+    margin: 0;
+    background: white;
+    overflow-y: scroll;
+}
+
+pre {
+    text-align: justify;
+    white-space: wrap;
+    padding: 2em;
+}
+
+.info-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.without-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 45%;
+    height: 500px;
+}
+
+img {
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+    padding: 2em;
+    background: white;
 }
