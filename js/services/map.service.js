@@ -75,7 +75,7 @@ function getAddressUrl(loc) {
 }
 
 function getWeatherUrl(loc) {
-    let url = `http://api.openweathermap.org/data/2.5/weather?lat=${loc.lat}&lon=${loc.lng}&units=metric&APPID=${WEATHER_API_KEY}`
+    let url = `https://api.openweathermap.org/data/2.5/weather?lat=${loc.lat}&lon=${loc.lng}&units=metric&APPID=${WEATHER_API_KEY}`
     return url
 }
 
